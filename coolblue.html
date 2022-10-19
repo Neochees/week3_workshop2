@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/images/style.css">
+    <title>coolblue</title>
+</head>
+
+<body>
+    <div id="header">
+        <img src="assets/images/Coolblue.png" alt="coolblue logo">
+    </div>
+    <div id="container">
+        <div id="texttop">
+            <h2 id="Jegegevens">JE GEGEVENS<span class="orange">.</span></h2>
+            <h3 id="factuur">Wat moet er op de factuur staan?</h3>
+        </div>
+        <div id="containerleft">
+            <p>Type bestelling</p>
+            <p>Aanhef</p>
+            <p>Naam</p>
+            <p>Postcode</p>
+            <p>Huisnummer</p>
+            <p>Land</p>
+            <p><img src="assets/images/Vraagteken.png" class="vraagteken">E-mailadres</p>
+            <p><img src="assets/images/Vraagteken.png" class="vraagteken">Telefoonnummer</p>
+            <p><img src="assets/images/Vraagteken.png" class="vraagteken">Geboortedatum</p>
+            <p><img src="assets/images/Vraagteken.png" class="vraagteken">Verzendwijze factuur</p>
+            <p><img src="assets/images/Vraagteken.png" class="vraagteken">Nieuwsbrief</p>
+            <p id="kleurverpakingtext"><img src="assets/images/Vraagteken.png" class="vraagteken">Kleur verpakking</p>
+            <div id="containerlefttussen">
+                <h2 id="bewaarjegegevens">BEWAARJEGEGEVENS<span class="orange">.</span></h2>
+                <h3 id="handigvolgendekeer">Handig voor de volgende keer.</h3>
+            </div>
+            <p><img src="assets/images/Vraagteken.png" class="vraagteken">Wachtwoord</p>
+            <p id="wachtwoodb"><img src="assets/images/Vraagteken.png" class="vraagteken">Wachtwoord bevestigen</p>
+        </div>
+        <div id="containerright">
+            <p><input type="radio" name="typebestelling">Particulier</input>
+                <input type="radio" name="typebestelling">Zakelijk</input>
+            </p>
+            <p><input type="radio" name="aanhef">Dhr.</input><input type="radio" name="aanhef">Mevr.</input></p>
+            <p id="namen"><input type="text" name="voornaam" placeholder="Voornaam" />
+                <input type="text" name="tussenv." placeholder="Tussenv." />
+                <input type="text" name="achternaam" placeholder="Achternaam" />
+            </p>
+            <p id="postcode"><input type="text" name="postcode" placeholder="1234AB" /></p>
+            <p id="huisnummer"><input type="number" name="Huisnummer" placeholder="Nr." /><input type="text"
+                    name="Huisnummer" placeholder="Toev." /></p>
+            <p id="nederland">Nederland > In België laten bestellen</p>
+            <p><input type="text" name="emailadres" required toe /></p>
+            <p id="telefoonnummer"><input type="text" name="telefoonnummer" required toe /></p>
+            <p id="datum"><input type="date" name="geboortedatum" required toe /></p>
+            <p id="verzendwijzefactuur"><input type="radio" name="verzendwijzefactuur" required toe>Factuur per
+                e-mail</input>
+                <input type="radio" name="verzendwijzefactuur" required toe>Factuur geprint bij de bestelling</input>
+            </p>
+            <p id="nieuwsbrief"><input type="checkbox" name="nieuwsbrief">Ja,
+                ik wil de Coolblue-nieuwsbrief met <span class="orange">€5,- cadeaubon voor</span><br>
+                mijn volgende
+                bestelling</input></p>
+            <p id="kleurverpakking"><input type="color" name="kleurverpakking" required toe /></p>
+
+            <p id="wachtwoord"><input type="text" name="wachtwoord" required toe /><br> Minimaal 6 karakters.<br> Verder
+                doen we niet zo
+                moeilijk.</p>
+            <p><input type="text" name="wachtwoord" required toe /></p>
+        </div>
+        <div id="verder">
+            <button id="verderbutton">
+                <h3>Verder</h3>
+            </button>
+        </div>
+        <div id="footer">
+            <div id="footerleft">
+                <div id="telefoondingen">
+                    <div id="telefoonlogo">
+                        <img src="assets/images/Telefoon.png">
+                    </div>
+                    <div id="telefoontext">
+                        <h2>BEL 010 7988999<span class="orange">.</span></h2>
+                        <p>Voor acute service.</p>
+                    </div>
+                </div>
+            <p><b>Onze klantenservice is nu open.</b></p>
+            <p>Je kunt ons 7 dagen per week bereiken. Vandaag is<br>
+            de klantenservice tot 23.59 open.</p>
+            </div>
+            <div id="footerright">
+                <div id="service">
+                    <h2>SERVICE<span class="orange">.</span></h2>
+                    <p>Onderdeel van Coolblue.</p>
+                </div>
+                <div>
+                    <p><img src="assets/images/checkmark.png" class="checkmark"> Gratis verzenden & retourneren</p>
+                    <p><img src="assets/images/checkmark.png" class="checkmark">Voor 23.59 uur besteld, morgen in huis</p>
+                    <p><img src="assets/images/checkmark.png" class="checkmark">Track & Trace, volg je pakket</p>
+                    <p><img src="assets/images/checkmark.png" class="checkmark">Statusupdates via e-mail</p>
+                    <p><img src="assets/images/checkmark.png" class="checkmark">Winkels in Amsterdam, Eindhoven, Groningen,<br>
+                        Rotterdam en Utrecht</p>
+                </div>
+            </div>
+        </div>
+        <div id="betaallogos">
+            <a><img src="assets/images/thuiswinkel.png" alt="Thuiswinkel" id="thuiswinkel"></a>
+            <a><img src="assets/images/ideal.png" alt="iDEAL" id="ideal"></a>
+            <a><img src="assets/images/mastercard.png" alt="Mastercard" id="mastercard"></a>
+            <a><img src="assets/images/visa.png" alt="VISA" id="visa"></a>
+            <a><img src="assets/images/paypal.png" alt="PayPal" id="paypal"></a>
+            <a><img src="assets/images/postnl.jpg" alt="Postnl" id="postnl"></a>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,198 @@
+body{
+    font-family: sans-serif;
+    background-color: white;
+    margin: 0%;
+}
+#header{
+    background-color: #0090e3;
+    height: 50px;
+}
+#header img{
+    height: 50px;
+    width: 50px;
+    background-color: #0090e3;
+    margin-left: 50px;
+}
+#Jegegevens{
+    color: darkblue;
+}
+#factuur{
+    color:cornflowerblue;
+}
+.orange{
+    color: orange;
+}
+.vraagteken{
+    width: 13px;
+    height: 13px;
+}
+#bewaarjegegevens{
+    color: darkblue;
+}
+#handigvolgendekeer{
+    color: cornflowerblue;
+}
+#footer{
+    background-color: #0090e3;
+    height: 300px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+#footer img{
+    width: 100px;
+    height: 100px;
+}
+#containerright{
+    width: 900px;
+    height: 700px;
+    text-align: start;
+    float: right;
+}
+#containerleft{
+    width: 600px;
+    height: 700px;
+    text-align: end;
+    float: left;
+}
+#verder{
+    background-color: #c7c7c7;
+    height: 100px;
+    width: 1000px;
+    margin-left: 275px;
+    clear: both;
+}
+#verderbutton{
+    background-color: #32cd32;
+    color: white;
+    height: 60px;
+    width: 120px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    float: right;
+    margin: 17px
+}
+#verderbutton:hover{
+    background-color: #2da32d;
+}
+#containerlefttussen{
+    align-items: end;
+    margin-right: -50px;
+}
+#texttop{
+    width: 300px;
+    margin-left: 381px;
+}
+#namen{
+    margin-top: -4px;
+}
+#postcode{
+    margin-top: -3px;
+}
+#huisnummer{
+    margin-top: -4px;
+}
+#nederland{
+    margin-top: -3px;
+}
+#telefoonnummer{
+    margin-top: -4px;
+}
+#datum{
+    margin-top: -4px;
+}
+#verzendwijzefactuur{
+    margin-top: -2px;
+}
+#nieuwsbrief{
+    margin-top: -2px;
+}
+#kleurverpakking{
+    margin-top: -15px;
+}
+#kleurverpakingtext{
+    margin-top: 25px;
+}
+#wachtwoord{
+    margin-top: 101px;
+}
+#wachtwoodb{
+    margin-top: 56px;
+}
+#footer-left {
+    float: left;
+}
+#telefoondingen {
+    display: flex;
+}
+#telefoonlogo img {
+    padding-top: 30px;
+    padding-right: 10px;
+    width: 40px;
+    height: 40px;
+}
+#telefoontext{
+    padding-top: 30px;
+}
+#telefoontext *{
+    margin: 0px;
+}
+#footerright{
+    float: right;
+}
+#service{
+    padding-top: 30px;
+}
+#service *{
+    margin: 0px;
+}
+.checkmark{
+    background-color: white;
+    border-radius: 50%;
+}
+#footerright img{
+    width: 15px;
+    height: 15px;
+}
+#betaallogos{
+    clear: both;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: center
+}
+#betaallogos img{
+    padding: 10px;
+}
+#thuiswinkel{
+    height: 50px;
+    width: auto;
+    margin-top: 5px;
+}
+#ideal{
+    height: 40px;
+    width: auto;
+    margin-top: 6px;
+}
+#mastercard{
+    height: 50px;
+    width: auto;
+}
+#visa{
+    height: 30px;
+    width: auto;
+    margin-top: 10px;
+}
+#paypal{
+    height: 30px;
+    width: auto;
+    margin-top: 12px;
+}
+#postnl{
+    height: 40px;
+    width: auto;
+    margin-top: 7px;
+}
